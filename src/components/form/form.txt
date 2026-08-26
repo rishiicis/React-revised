@@ -1,0 +1,45 @@
+------Form- Employee Management---------
+Dropdown
+Radio Buttons
+Checkboxes
+Input
+Text
+Conditional Text
+Submit button
+
+Add Employee
+Display Employee List
+Edit Employee
+Delete Employee
+Search Employee
+Validate:
+	Name required
+	Email format
+	Salary > 0
+Display total employees
+Concepts Tested:
+ Forms
+Controlled Components
+Validation
+Arrays of Objects
+CRUD Operations
+Conditional Rendering
+Event Handling
+
+1. Filter Employees by Department
+Dropdown
+All Departments
+IT
+HR
+Finance
+Marketing
+2. Sort Employees
+Sort by Name
+Sort by Salary (Low to High)
+Sort by Salary (High to Low)
+3. Employee Status
+Salary > 80000   → Senior Employee
+Salary > 50000   → Regular Employee
+Otherwise        → Junior Employee
+
+use react and localStorage for data

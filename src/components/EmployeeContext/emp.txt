@@ -1,0 +1,34 @@
+Context State
+{
+  employees: [],
+  addEmployee(),
+  deleteEmployee(),
+  updateEmployee()
+}
+ 
+Flow
+App
+ ↓
+ EmployeeProvider
+↓
+EmployeeList
+↓
+ EmployeeCard
+ ↓
+ EmployeeDetailsoyeeDetails
+ 
+Create Employee Context.
+Store all employees in Context.
+Add Employee.
+Delete Employee.
+Update Employee Salary.
+Search Employee.
+Show Total Employees.
+Show Highest Salary Employee.
+Avoid Prop Drilling completely.
+
+const [employees, setEmployees] = useState([
+    { id: 1, name: 'Ram', salary: 85000 },
+    { id: 2, name: 'Kumar', salary: 72000 },
+    { id: 3, name: 'Amit', salary: 110000 },
+  ]);
