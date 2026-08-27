@@ -35,8 +35,6 @@ const EmployeeManagement = () => {
       ...prev,
       [name]: type === 'checkbox' ? checked : value,
     }));
-    const checkError = validateForm();
-    setErrors({ ...errors, checkError });
   };
 
   //form validation
@@ -197,7 +195,7 @@ const EmployeeManagement = () => {
           </label>
         </div>
 
-        {['IT', 'sw', 'hardware'].includes(formData.department) && (
+        {['IT', 'HR','Finance', 'Marketing'].includes(formData.department) && (
           <div className="row">
             <p>Conditional Text:</p>
             <input
